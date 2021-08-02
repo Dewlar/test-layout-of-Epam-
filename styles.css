@@ -2,121 +2,143 @@
     position: relative;
     min-height: 100%;
 } */
-html{
-    font-family: Arial, Helvetica, sans-serif;
+html {
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 .header h1 {
-    display: none;
+  display: none;
 }
+
 .logo {
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    float: left;
-    margin: 10px 10px 0px 10px;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  float: left;
+  margin: 10px 10px 0 10px;
 }
-.header, .sidebar, .content, .footer { 
-    border: solid 1px black; /* рамка */
-    background: #cdcecb; 
-   }
-   .header { /* Верхняя часть */
-    background: #bebebc; 
-    font-size: 24px;
-    height: 120px;
-    padding: 0px;
-   }
-   .horizontalNavigation{
-    height: 40px;
-    background-color: black;    
-    margin-bottom: 10px;
-    padding: 0px;
-   }
-   .horizontalNavigation .button{
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 17px;
-    margin: 0px;
-    cursor: pointer;
-    /* font-family: 'Courier New', Courier, monospace; */
-   }
-   .horizontalNavigation .button:hover{
-    background-color: white;
-    border: none;
-    color: black;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 17px;
-    margin: 0px;
-    cursor: pointer;
-   }
-   .layout {
-    margin-bottom: 20px;  
- /*  overflow: hidden;  */
- /* min-width: 200px;  */
- /* max-width: 500px;  */
- height: 500px;
-   }
-   .sidebar { /* вертикальное меню */
-    width: 238px; /* Ширина меню */
-    float: left; /* обтекание контентом */
-    padding: 10px;
-    border: 0px;
-    height: 100%;
-   }
-   
-   .sidebar .button1{
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 10px 20px 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 17px;
-    margin: 0px;
-    cursor: pointer;
-    /* font-family: 'Courier New', Courier, monospace; */
-   }
-   .sidebar .button1:hover{
-    background-color: white;
-    border: none;
-    color: black;
-    padding: 10px 20px 10px 20px;
-    text-align: center;
-    text-decoration: underline;
-    display: inline-block;
-    font-size: 17px;
-    margin: 0px;
-    cursor: pointer;
-    /* font-family: 'Courier New', Courier, monospace; */
-   }
-  
-   .sidebar ul {
-    list-style: none; /* Убираем маркеры */
-    padding: 0; /* Убираем отступы */
-    margin: 0px;
-   }
-   .content { /* Основное содержание страницы */
-    margin-left: 270px; /* Отступ слева */
-    background: white;
-    border: none;
-   }
-   .content h2{
-       margin: 0px;
-       padding: 0px;
-   }
-   .content h3{
-       margin: 0px;
-       padding: 0px;
-   }
-   .footer{
-       background-color: black;
-       height: 25px;
-   }
+
+.header,
+.sidebar,
+.content,
+.footer {
+  border: solid 1px black; /* рамка */
+  background: #CCCCCC;
+}
+
+.header {
+  /* Верхняя часть */
+  background: #CCCCCC;
+  font-size: 24px;
+  height: 120px;
+  padding: 0;
+}
+
+.horizontalNavigation {
+  height: 40px;
+  background-color: #383838;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.horizontalNavigation .button {
+  background-color: #383838;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  /* line-height: 20px; */
+  margin: 0;
+  cursor: pointer;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.horizontalNavigation .button:hover {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  /* line-height: 20px; */
+  margin: 0;
+  cursor: pointer;
+}
+
+.layout {
+  margin-bottom: 20px;
+  /*  overflow: hidden;  */
+  /* min-width: 200px;  */
+  /* max-width: 500px;  */
+  height: 500px;
+}
+
+.sidebar {
+  /* вертикальное меню */
+  width: 238px; /* Ширина меню */
+  float: left; /* обтекание контентом */
+  padding: 10px;
+  border: 0;
+  height: 100%;
+}
+
+.sidebar .button1 {
+  background-color: #383838;
+  border: none;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 0;
+  cursor: pointer;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.sidebar .button1:hover {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 17px;
+  margin: 0;
+  cursor: pointer;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.sidebar ul {
+  list-style: none; /* Убираем маркеры */
+  padding: 0; /* Убираем отступы */
+  margin: 0;
+}
+
+.content {
+  /* Основное содержание страницы */
+  margin-left: 270px; /* Отступ слева */
+  background: white;
+  border: none;
+}
+
+.content h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.content h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #383838;
+  height: 25px;
+}
