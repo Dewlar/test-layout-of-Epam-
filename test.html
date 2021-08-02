@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>тест</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <style>
+        /* *{
+            margin: 0px;
+            padding: 0px;
+        } */
+        .header-wrapper{
+            background-color: blue;
+            height: 80px;
+            width: 100%;
+            border: 10px solid red;
+            box-sizing:border-box;
+            /* padding: 0px; */
+            /* margin-top: 20px; */
+        }
+        .header-wrapper .content{
+            background-color: seagreen;
+            /* margin: 0px 0px 10px 270px; */
+            /* margin-top: 0px; */
+        }
+        .main-menu li:last-child a{
+            color: red;
+        }
+        .content{
+            background-color: rosybrown; /*Приоритеты свойств в разных классах*/
+        }
+    </style>
+  </head>
+
+  <body>
+    <header class="header-wrapper">
+      <div class="content">
+        <nav>
+          <ul class="main-menu">
+            <li><a href="">One</a></li>
+            <li><a href="">Two</a></li>
+            <li><a href="">Three</a></li>
+            <li><a href="">four</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section></section>
+    <footer></footer>
+  </body>
+</html>
